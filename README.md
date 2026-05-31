@@ -111,15 +111,37 @@ Logistic Regression (оптимизированная)	0.7606
 * активность клиента.
 
 Установка и запуск
+
 Клонировать репозиторий:
-git clone <ссылка_на_репозиторий>
+
+git clone https://github.com/alexsandra9966-crypto/marketing_project.git
+
+Перейти в папку проекта:
+
+cd marketing_project
+
 Установить зависимости:
 pip install -r requirements.txt
+
+Подготовить данные:
+Создать папку `filtered_data/` в корне проекта и поместить в неё следующие файлы:
+
+* `apparel-purchases.csv`
+* `apparel-messages.csv`
+* `apparel-target_binary.csv`
+* `full_campaign_daily_event.csv`
+* `full_campaign_daily_event_channel.csv`
+
 Запустить Jupyter Notebook:
+
 jupyter notebook
+
 Открыть файл:
-notebook.ipynb
-Выполнить ячейки последовательно.
+marketing_project.ipynb
+Выполнить ячейки последовательно 
+
+
+
 
 Используемые технологии
 * Python
